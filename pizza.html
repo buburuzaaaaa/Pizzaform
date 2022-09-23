@@ -15,8 +15,9 @@ background-size: cover;
 </head>
 <body>
   <center>
-    <h1 style=color:white> Create your own custom pizza</h1>
+    <h3 style=color:white>Your Order</h3>
     </center>
+    <form>
     <fieldset>
         <legend style=color:white>User information </legend>
       <label for="text" style="color:white ;">Name</label> <input type="text">
@@ -48,23 +49,129 @@ background-size: cover;
 <input type="radio" name="drinks">   <label for="radio"style="color:white;">sierra mist</label>
     </fieldset>
     <fieldset>
+        <legend style=color:white> Pizza sizes</legend>
+        <input type="radio"name="pie"><label for="radio" style="color:white">8 inch (personal pizza $7.99)</label>
+        <br>
+        <input type="radio"name="pie"><label for="radio" style="color:white" >10 inch (feeds two adults $10.99)</label>
+        <br>
+        <input type="radio" name="pie"><label for="radio" style="color:white">12 inch (medium $12.99)</label>
+        <br>
+        <input type="radio" name="pie"><label for="radio" style="color:white">14 inch (large $16.99)</label>
+        <br>
+        <input type="radio" name="pie"><label for="radio" style="color:white">16 inch (xtra large $20.99)</label>
+        <br>
+        <input type="radio" name="pie"><label for="radio" style="color:white">18 inch (xx large $23.99)</label>
+        <br>
+        <input type="radio" name="pie"><label for="radio" style="color:white">20 inch (xxx large $27.99)</label>
+          <br>
+    <input type="radio" name="pie"><label for="radio" style="color:white">35 inch (party size $35.99)</label>
+    <br>
+        </fieldset>
+        <fieldset>
+            <legend style=color:white>WINGS</legend>
+            <p style=color:white> mix up to 5 flavors</p>
+            <hr>
+            <input type="radio" name="price"><label for="radio"style="color:white ;">8 count $8.99</label>
+            <br>
+            <input type="radio" name="price"><label for="radio" style="color:white ;">12 count $12.99</label>
+            <br>
+            <input type="radio" name="price"><label for="radio" style="color:white ;">15 count $15.99</label>
+            <br>
+            <input type="radio" name="price"><label for="radio" style="color:white ;">20 count $20.99</label>
+            <br>
+            <input type="radio" name="price"><label for="radio" style="color:white ;">30 count $30.99</label>
+            <hr>
+            <input type="radio"name="wing"><label for="radio"style="color:white ;">Boneless</label>
+            <br>
+            <input type="Radio" name="wing"><label for="radio"style="color:white ;">Bone-in</label>
+            <hr>
+            <br>
+            <input type="checkbox"><label for="checkbox" style="color:white ;">Plain</label>
+            <br>
+            <input type="checkbox"><label for="checkbox" style="color:white ;">Hot</label>
+            <br>
+            <input type="checkbox"><label for="checkbox" style="color:white ;">Mild</label>
+            <br>
+            <input type="checkbox"><label for="checkbox" style="color:white ;">Honey BBQ</label>
+            <br>
+            <input type="checkbox"><label for="checkbox" style="color:white ;">Hot BBQ</label>
+            <br>
+            <input type="checkbox"><label for="checkbox" style="color:white ;">Lemon Pepper</label>
+            <br>
+            <input type="checkbox"><label for="checkbox" style="color:white ;">Hot lemon Pepper</label>
+            <br>
+            <input type="checkbox"><label for="checkbox" style="color:white ;">Garlic Parmasan</label>
+            <br>
+            <input type="checkbox"><label for="checkbox" style="color:white ;">Asian Zing</label>
+            <br>
+            <input type="checkbox"><label for="checkbox" style="color:white ;">Teriyaki</label>
+
+        </fieldset>
+    <fieldset>
         <legend style="color: white;">Pizza toppings</legend>
-        <input type="checkbox"><label for="checkbox">chicken</label>
+        <p style="color: white;">  TOPPINGS BESIDES PEPPERONI ARE AN ADDITIONAL $1.99</p>
+        <hr>
+        <input type="checkbox"><label for="checkbox" style="color: white;"> Plain Cheese</label>
         <br>
-        <input type="checkbox"><label for="checkbox">BBQ chicken</label>
+        <input type="checkbox"><label for="checkbox"style="color: white;">chicken</label>
         <br>
-        <input type="checkbox"><label for="checkbox">olives</label>
+        <input type="checkbox"><label for="checkbox"style="color: white;">BBQ chicken</label>
         <br>
-        <input type="checkbox"><label for="checkbox">pineapple</label>
+        <input type="checkbox"><label for="checkbox"style="color: white;">olives</label>
         <br>
-        <input type="checkbox"><label for="checkbox">bell peppers</label>
+        <input type="checkbox"><label for="checkbox"style="color: white;">pineapple</label>
         <br>
-        <input type="checkbox"><label for="checkbox">Jalenpenos</label>
+        <input type="checkbox"><label for="checkbox"style="color: white;">bell peppers</label>
         <br>
-        <input type="checkbox"><label for="checkbox">pepperoni</label>
+        <input type="checkbox"><label for="checkbox" style="color: white;">Jalenpenos</label>
         <br>
-        <input type="checkbox"><label for="checkbox">bacon</label>
+        <input type="checkbox"><label for="checkbox"style="color: white;">pepperoni</label>
+        <br>
+        <input type="checkbox"><label for="checkbox"style="color: white;">bacon</label>
     </fieldset>
+   <fieldset>
+    <legend style=color:white> crusts</legend>
+    <input type="radio"><label for="radio" style="color:white ;"> regular crust</label>
+    <br>
+    <input type="radio"><label for="radio" style="color:white ;"> thin crust</label>
+    <br>
+    <input type="radio"><label for="radio" style="color:white ;"> stuffed crust</label>
+   </fieldset>
+   <fieldset>
+    <legend style=color:white>Special Instructions for order</legend>
+    <input type="text" style="height: 100px; ;">
+    <br>
+    
+   </fieldset>
+      
+        
+    
+    
    
+    <hr>
+    <legend style=color:white> Payment Information</legend>
+    <label for="cars"style="color:white ;">Card type:</label>
+    
+    <select name="cars" id="cars">
+        <option value="volvo">Visa</option>
+        <option value="saab">mastercard</option>
+        <option value="mercedes">discover</option>
+    </select>
+    
+    <br>
+    
+    
+    <label for="text"style="color:white ;">Card number*</label><input type="text">
+    <br>
+    
+    
+    <label for="date"style="color:white ;">Expiration date*</label><input type="date">
+    <p style="color:white ;">formatted as mm/dd/yyyy</p>
+    <br>
+    <button type="submit">Submit order</button>
+
+   
+   
+   </form>
 </body>
 </html>
